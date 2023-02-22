@@ -63,7 +63,7 @@ This Terraform Quickstart is meant to be a **foundation** for creating reusable 
 
 # Network Diagram
 
-![Architecture Diagram](https://github.com/JDBraun/wl-terraform-quickstart-premium/blob/main/img/White%20-%20Network%20Topology%20Premium.png)
+![Architecture Diagram](https://github.com/JDBraun/wl-terraform-quickstart-premium/blob/main/img/White%20Label%20-%20Network%20Topology%20Premium.png)
 
 # Login Screen Example
 
