@@ -1,8 +1,9 @@
-# White Label (WL) - Terraform QuickStart
+# White Label (WL) - Terraform QuickStart Premium 
 
 This Terraform Quickstart is meant to be a **foundation** for creating reusable White Label Databricks solution within your AWS environment.
 
 **Disclaimers**: 
+- This works with Databricks Premium edition. However, we recommend [enterprise](https://github.com/JDBraun/wl-terraform-quickstart) for WL solutions.
 - There is no dedicated warranty or support for this Terraform script. Please raise GitHub issues as needed.
 - Please contact your Databricks representative if you're interested in a white label solution. This QuickStart will **not** work on a standard Databricks account.
 - This QuickStart **will** create a SQL warehouse and data engineering cluster in the workspace. Please be considerate and shut these downs for cost savings.
@@ -37,8 +38,7 @@ This Terraform Quickstart is meant to be a **foundation** for creating reusable 
     - Route Tables
     - NAT Gateway
     - Internet Gateway
-    - AWS VPC Endpoints (S3, Kinesis, STS, Databricks Endpoints)
-    - Egress Firewall
+    - AWS VPC Endpoints (S3, Kinesis, STS)
     - S3 Root Bucket
     - Cross Account IAM Role + Policy
     - S3 Instance Profile IAM Role + Policy
@@ -46,7 +46,7 @@ This Terraform Quickstart is meant to be a **foundation** for creating reusable 
 - **Workspace Deployment:**
     - Credential Configuration
     - Storage Configuration
-    - Network Configuration (Backend PrivateLink Enabled)
+    - Network Configuration 
     - External User Parameters (i.e. Authoritative User Parameters)
 
 - **Post Workspace Deployment:**
@@ -63,7 +63,7 @@ This Terraform Quickstart is meant to be a **foundation** for creating reusable 
 
 # Network Diagram
 
-![Architecture Diagram](https://github.com/JDBraun/wl-terraform-quickstart/blob/main/img/White%20Label%20-%20Network%20Topology.png)
+![Architecture Diagram](https://github.com/JDBraun/wl-terraform-quickstart/blob/main/img/White%20Label%20-%20Network%20Topology%20Premium.png)
 
 # Login Screen Example
 

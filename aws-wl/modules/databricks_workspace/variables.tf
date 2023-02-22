@@ -30,14 +30,6 @@ variable "vpc_id" {
   type = string
 }
 
-variable "backend_rest"{
-  type = string
-}
-
-variable "backend_relay" {
-  type = string
-}
-
 variable "customer_name" {
   type = string
 }

@@ -13,22 +13,10 @@ data_bucket = ""
 // Dataplane Variables
 region = "us-east-1"
 vpc_cidr_range = "10.0.0.0/18"
-private_subnets_cidr = "10.0.0.0/22, 10.0.4.0/22"
-public_subnets_cidr = "10.0.8.0/25,10.0.8.128/25"
-firewall_subnets_cidr = "10.0.9.0/25,10.0.9.128/25"
-privatelink_subnets_cidr = "10.0.10.0/25,10.0.10.128/25"
+private_subnets_cidr = "10.0.16.0/21,10.0.24.0/21"
+public_subnets_cidr = "10.0.32.0/26,10.0.32.64/26"
+privatelink_subnets_cidr = "10.0.32.128/26,10.0.32.192/26"
 availability_zones = "us-east-1a,us-east-1b"
-
-// Regional Private Link Variables: https://docs.databricks.com/administration-guide/cloud-configurations/aws/privatelink.html#regional-endpoint-reference
-relay_vpce_service = ""
-workspace_vpce_service = ""
-
-//Regional Metastore Variable: https://docs.databricks.com/administration-guide/cloud-configurations/aws/customer-managed-vpc.html#configure-a-firewall-and-outbound-access-optional
-metastore_url = ""
-
-// Firewall
-firewall_allow_list = ""
-firewall_protocol_deny_list = "ICMP,FTP,SSH"
 
 // Authoritative User - WL Variables
 customer_name = ""

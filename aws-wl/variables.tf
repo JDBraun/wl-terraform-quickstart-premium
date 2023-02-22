@@ -53,35 +53,11 @@ variable "public_subnets_cidr" {
   type = string
 }
 
-variable "firewall_subnets_cidr" {
-  type = string
-}
-
 variable "privatelink_subnets_cidr" {
   type = string
 }
 
 variable "availability_zones" {
-  type = string
-}
-
-variable "workspace_vpce_service" {
-  type = string
-}
-
-variable "relay_vpce_service" {
-  type = string
-}
-
-variable "metastore_url" {
-  type = string
-}
-
-variable "firewall_allow_list" {
-  type = string
-}
-
-variable "firewall_protocol_deny_list" {
   type = string
 }
 
